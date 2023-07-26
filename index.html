@@ -29,7 +29,48 @@
     </style>
 </head>
 <body class="m-0 p-0">
-    <header class="lg:mx-60">
+    <header class="lg:mx-40">
+      <!-- naav section -->
+      <nav class="lg:bg-[#F85559] flex my-10 justify-between items-center rounded-[600px] h-32 ">
+        <div class="navbar ">
+            <div class="hidden lg:flex navbar-start list-none gap-8 pl-8 text-white font-medium" >
+            
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Shop</li>
+            <li><a href=""></a>All Fruits</li>
+            </div>
+            <div class="navbar-start pl-4  lg:navbar-center gap-2">
+              <img class="w-7 lg:w-14" src="./images/logo.png" alt="">
+              <h2 class="lg:text-white lg:text-[40px] font-bold">Fruit Burst</h2>
+            </div>
+            <div class="hidden  lg:flex navbar-end">
+             <div class="bg-white h-14 mr-8 w-[340px] rounded-[50px]">
+                <input type="search" placeholder="Search here" class="rounded-[50px] w-[300px] h-14" name="" id="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </div>
+            
+            </div>
+    
+            <div class="z-30 navbar-end lg:hidden pr-5">
+                <div class="dropdown dropdown-hover dropdown-left">
+                    <label tabindex="0" class="m-1"><i class="fa-solid fa-bars"></i></label>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box ">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a href="">Shop</a></li>
+                      <li><a href="">All Fruits</a></li>
+                      <li><a href="" class="flex gap-1"> <input type="search" placeholder="Search here" class="rounded-[50px] w-[140px] h-8" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    </ul>
+                  </div>
+            </div>
+          </div>
+    
+       </nav>
+
+
+
        <!-- headerr section -->
        <div>
         <div class="carousel w-full z-10   ">
@@ -91,24 +132,24 @@
           </div>
         </div>
 
-        <div class="flex justify-around absolute z-20  bg-white top-[370px] left-96  hidden lg:flex">
-          <div class=" ">
+        <div class=" justify-around absolute z-20  bg-white top-[650px] left-[420px]  hidden lg:flex">
+          <div class="text-center ">
             <img src="./images/fruit1.png" alt="">
             <p class="">Strawberry</p>
           </div>
-          <div>
+          <div class="text-center">
             <img src="./images/fruit2.png" alt="">
             <p>Orange</p>
           </div>
-          <div>
+          <div class="text-center">
             <img src="./images/fruit3.png" alt="">
             <p>Mango</p>
           </div>
-          <div>
+          <div class="text-center">
             <img src="./images/fruit4.png" alt="">
             <p>Strawberry</p>
           </div>
-          <div>
+          <div class="text-center">
             <img src="./images/fruit5.png" alt="">
             <p>Mango</p>
           </div>
@@ -118,7 +159,7 @@
     </header>
     <main class="container mx-auto">
         <!-- buy fruits section -->
-        <section class="lg:mx-60 my-24 ">
+        <section class="lg:mx-40 my-24 ">
             <div  class="flex flex-col lg:flex-row lg:gap-40 items-center ">
                 <div class="items-center flex flex-col justify-center lg:items-start text-center lg:text-left">
                     <h3 class="font-extrabold  text-5xl">Deal of the day</h3>
@@ -340,7 +381,7 @@
         </section>
 
         <!-- team section -->
-        <section class="lg:mx-60">
+        <section class="lg:mx-40">
           <div class="  team-section flex justify-center">
             <div class="card image-full">
                 <figure><img src="./images/team.png" alt="Shoes" /></figure>
